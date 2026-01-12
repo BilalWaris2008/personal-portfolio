@@ -169,3 +169,19 @@ p {
 .btn:hover{
     box-shadow: none;
 }
+
+.home-info .btn-sci .sci{
+    margin-left: 2rem;
+}
+
+.home-info .btn-sci .sci a{
+    position: relative;
+    display: inline-flex;
+    padding: .8rem;
+    border: .2rem solid var(--main-color);
+    border: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 0 .8rem;
+}
+
