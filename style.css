@@ -179,7 +179,7 @@ p {
     display: inline-flex;
     padding: .8rem;
     border: .2rem solid var(--main-color);
-    border: 50%;
+    border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
     margin: 0 .8rem;
@@ -191,3 +191,14 @@ p {
     color: var(--bg-color);
 }
 
+.img-box{
+    position: relative;
+    width: 32vw;
+    height: 32vw;
+    background: linear-gradient(var(--bg-color),var(--main-color));
+    border-radius: 50%;
+    border: .5rem solid var(--main-color);
+    box-shadow: 0 0 2rem var(--main-color);
+    display: flex;
+    justify-content: center;
+}
