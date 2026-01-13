@@ -273,10 +273,29 @@ a:hover .tool-tip {
     margin-bottom: 2rem;
 }
 
-.tab-list{
+.tab-list {
     display: flex;
     align-items: center;
     width: 100%;
-    border-radius: .3rem solid var(--tab-list-color);
     cursor: pointer;
+    border-bottom: .3rem solid var(--tab-list-color);
+    color: var(--tab-list-color);
+    transition: .5s;
+}
+
+.tab-list.resume-list.active {
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+
+.resume-list:nth-child(2) {
+    justify-content: center;
+}
+
+.resume-list:nth-child(3) {
+    justify-content: flex-end;
+}
+
+.tab-list h3 {
+    font-size: 2.5rem;
 }
