@@ -118,7 +118,7 @@ a:hover .tool-tip {
     height: 100%;
     transform-style: preserve-3d;
     transform-origin: 50% 50% -50vw;
-    transform: rotateY(-180deg);
+    transform: rotateY(-270deg);
 }
 
 .section {
@@ -141,6 +141,10 @@ a:hover .tool-tip {
 .section.resume {
     transform: translateZ(-100vw) rotateY(-180deg);
     transform-origin: 50%;
+}
+
+.section.portfolio{
+    transform: translateX(-50vw) translateZ(-50vw) rotateY(-90deg);
 }
 
 .home,
@@ -260,7 +264,8 @@ a:hover .tool-tip {
     padding: 1.2rem 4rem;
 }
 
-.resume {
+.resume,
+.portfolio {
     padding-top: 2rem;
     padding-bottom: 28rem;
 }
