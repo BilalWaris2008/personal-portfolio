@@ -288,7 +288,8 @@ a:hover .tool-tip {
     transition: .5s;
 }
 
-.tab-list.resume-list.active {
+.tab-list.resume-list.active,
+.tab-list.portfolio-list.active {
     border-color: var(--main-color);
     color: var(--main-color);
 }
@@ -393,4 +394,8 @@ a:hover .tool-tip {
 
 .resume-box.skills .resume-item p {
     margin-top: 0;
+}
+
+.portfolio-list:nth-child(2){
+    justify-content: flex-end;
 }
