@@ -544,3 +544,9 @@ a:hover .tool-tip,
     align-items: center;
     width: 70rem;
 }
+
+.contact-form h3{
+    font-size: 3rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
