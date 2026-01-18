@@ -405,7 +405,7 @@ a:hover .tool-tip {
     position: relative;
 }
 
-.portfolio-box.work .portfolio-item::before{
+.portfolio-box.work .portfolio-item::before {
     content: '';
     position: absolute;
     left: 0;
@@ -419,7 +419,7 @@ a:hover .tool-tip {
     transition: .3s;
 }
 
-.portfolio-box.work .portfolio-item:hover::before{
+.portfolio-box.work .portfolio-item:hover::before {
     opacity: .9;
 }
 
@@ -441,6 +441,32 @@ a:hover .tool-tip {
     transition: .3s;
 }
 
-.portfolio-item:hover .work-img img{
+.portfolio-item:hover .work-img img {
     transform: scale(1.2);
+}
+
+.portfolio-item .work-info {
+    z-index: 1;
+}
+
+.portfolio-item .work-info h4 {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.portfolio-item .work-info .tech-used {
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--white-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio-item .portfolio-icon a{
+    position: relative;
+    display: inline-flex;
+    padding: 1rem;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: var(--bg-color);
 }
