@@ -148,6 +148,10 @@ a:hover .tool-tip,
     transform: translateX(-50vw) translateZ(-50vw) rotateY(-90deg);
 }
 
+.section.contact {
+    visibility: hidden;
+}
+
 .home,
 .about {
     display: flex;
@@ -526,18 +530,18 @@ a:hover .tool-tip,
     color: var(--main-color);
 }
 
-.contact{
+.contact {
     padding-top: 2rem;
     padding-bottom: 18rem;
 }
 
-.contact-wrapper{
+.contact-wrapper {
     display: flex;
     justify-content: center;
     height: 100%;
 }
 
-.contact-form{
+.contact-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -545,20 +549,20 @@ a:hover .tool-tip,
     width: 70rem;
 }
 
-.contact-form h3{
+.contact-form h3 {
     font-size: 3rem;
     color: var(--main-color);
     margin-bottom: 1rem;
 }
 
-.contact-form .field-box{
+.contact-form .field-box {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
 .contact-form .field-box input,
-.contact-form .field-box textarea{
+.contact-form .field-box textarea {
     flex: 1 1 30rem;
     padding: 2rem;
     background: var(--third-bg-color);
@@ -567,7 +571,15 @@ a:hover .tool-tip,
     color: var(--white-color);
 }
 
-.contact-form .field-box textarea{
+.contact-form .field-box textarea {
     height: 20rem;
     resize: none;
+}
+
+.contact-form .contact-btn {
+    margin-top: 2rem;
+}
+
+.contact-form .contact-btn .btn {
+    cursor: pointer;
 }
