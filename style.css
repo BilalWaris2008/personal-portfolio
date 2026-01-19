@@ -151,6 +151,19 @@ a:hover .tool-tip,
 
 .section.contact {
     visibility: hidden;
+    transition-delay: .5s;
+}
+
+.section.contact.active {
+    visibility: visible;
+}
+
+.section.contact.action-contact {
+    transition-delay: 1.5s;
+}
+
+.section.contact.action-contact.active {
+    transition-delay: 0s;
 }
 
 .home,
@@ -584,3 +597,63 @@ a:hover .tool-tip,
 .contact-form .contact-btn .btn {
     cursor: pointer;
 }
+
+/* BREAKPOINTS */
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+/* @media screen and (max-width: 992px) {
+    .section {
+        padding: 0 4%;
+    }
+
+    .resume,
+    .portfolio {
+        padding-top: 1.5rem;
+        padding-bottom: 27rem;
+    }
+
+    .contact {
+        padding-top: 1.5rem;
+        padding-bottom: 18rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .nav {
+        bottom: 0;
+    }
+
+    .home,
+    .about {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 2rem;
+        padding-bottom: 6rem;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .img-box {
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .resume,
+    .portfolio {
+        padding-bottom: 25rem;
+    }
+
+    .contact{
+        padding-bottom: 16rem;
+    }
+} */
